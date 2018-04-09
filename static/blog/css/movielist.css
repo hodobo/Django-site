@@ -1,0 +1,28 @@
+    .movieUl{
+        border:1px solid #37abdc;
+        padding:10px;
+        list-style-type:none;
+    }
+    .col-md-2{
+        width:19.9%;
+    }
+    .movieLi{
+        list-style-type:none;
+        margin:20px 0.05%;
+    }
+    .movieHref{
+        width:100%;
+        }
+    .movieImg{
+        width:100%;
+    }
+    .movieName{
+        display: block;
+        width: 100%;
+        height: 24px;
+        text-align: center;
+        color: #3eaaff;
+        white-space:nowrap;
+        text-overflow:ellipsis;
+        overflow: hidden;
+    }

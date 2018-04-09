@@ -1,0 +1,1 @@
+这是使用Haystack 做全文搜索，替换为jieba分词器所要修改的文件。于venv/lib/python3.5/site-packages/haystack/backends/路径下，添加这两个文件就好。

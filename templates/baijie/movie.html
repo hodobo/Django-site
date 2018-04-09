@@ -1,0 +1,19 @@
+{% extends 'basebaijie.html'%}
+{% load staticfiles %}
+
+{% block main %}
+    <div class="pageContainer">
+        <ul class="movieUl row">
+             {% for movie in movie_list %}
+            <li class="movieLi col-xs-12 col-sm-12 col-md-2" title="{{ movie.movie }}">
+                <a class="movieHref" href="{% url 'baijie:play' movie.id %}">
+                    <img class="movieImg" src="{% static movie.image_url %}">
+                    <span class="movieName">{{ movie.movie }}</span>
+                </a>
+            </li>
+             {% endfor %}
+        </ul>
+    </div>
+    <br>
+    {% include 'paginator.html' %}
+{% endblock %}

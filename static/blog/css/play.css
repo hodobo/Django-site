@@ -1,0 +1,10 @@
+.moviePlayCon{
+         padding: 10px 10%
+     }
+.moviePlayName{
+        font-size:16px;
+        font-weight:bold;
+    }
+.moviePlayWindow{
+        width:100%;
+    }
